@@ -7,6 +7,8 @@ Studiju kursa Datormācībā (pamatkurss) elektroniskā klade
 
 [termini](https://termini.gov.lv/atrast/partition)
 
+[linux terminal online](https://www.tutorialspoint.com/linux_terminal_online.php)
+
 **bold**
 
 *italic*

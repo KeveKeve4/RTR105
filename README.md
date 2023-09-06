@@ -15,7 +15,7 @@ Studiju kursa Datormācībā (pamatkurss) elektroniskā klade
 
 ***Bold italic***
 
-script <sub>superscript</sub> script
+script <sub>subscript</sub> script
 
 script <sup>superscript</sup> script
 

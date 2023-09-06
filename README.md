@@ -13,7 +13,7 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 **bold*italic*bold**
 
-***Bold italic**
+***Bold italic***
 
 script <sub>superscript</sub> script
 

@@ -31,5 +31,5 @@ block
 block
 ```
 
-greer `#008000`
+greer `rgb(0, 255, 0)`
 

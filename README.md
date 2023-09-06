@@ -2,3 +2,4 @@
 Studiju kursa Datormācībā (pamatkurss) elektroniskā klade
 
 ## Pirmās nodarbības atziņas
+

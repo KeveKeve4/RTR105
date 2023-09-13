@@ -1,0 +1,78 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls
+    5  ls --all
+    6  ls
+    7  sls
+    8  ls
+    9  ls -la
+   10  pwd
+   11  cd.
+   12  cd
+   13  cd .
+   14  cd ..
+   15  pwd
+   16  ls -l
+   17  ls -la
+   18  tree
+   19  ls -l
+   20  ls -la
+   21  pwd
+   22  ls -la
+   23  cd ~
+   24  pwd
+   25  cd home/
+   26  cd home/user/
+   27  cd /home/user/
+   28  cd /
+   29  cd 
+   30  c
+   31  cdmkdir ABC
+   32  mkdir ABC
+   33  ls -lt
+   34  ls -la ABC/
+   35  rmdir ABC/
+   36  ls
+   37  echo $?
+   38  rmdir ABC/
+   39  echo $?
+   40  ls
+   41  echo $?
+   42  tree
+   43  echo kjsdfnvkajgvnkj
+   44  echo 12345
+   45  echo 12345 > a.text
+   46  ls l
+   47  ls 
+   48  cat a.txt
+   49  echo 123456 > a.text
+   50  ls -lt a.txt
+   51  ls
+   52  echo 1234567 > a.txt
+   53  ls -lt a.txt
+   54  cat a.txt
+   55  hex dump -C a.txt
+   56  hexdump -C a.txt
+   57  echo 12345678 > a.txt
+   58  echo abcdef > a.txt
+   59  hexdump -C a.txt
+   60  echo 12345678 >> a.txt
+   61  hexdump -C a.txt
+   62  echo "nsdvkjdnfg"
+   63* echo -
+   64  echo "nsdvkjdnfg\a"
+   65  echo -e "nsdvkjdnfg\a"
+   66  echo "123\n\t456\a" > a.txt
+   67  cat a.txt
+   68  hexdump -C a.txt
+   69  cat a.txt
+   70  echo -e "123\n\t456\a" > a.txt
+   71  cat a.txt
+   72  hexdump -C a.txt
+   73  cat a.txt
+   74  touch c.txt
+   75  touch -t 202312312359 c.txt
+   76  ls -lt
+   77  history
+   78  history > history20230913_Class_02.txt

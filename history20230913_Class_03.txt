@@ -1,0 +1,102 @@
+78a79,179
+>    79  cat mkdir {test1}
+>    80  cat mkdir{test1}
+>    81  mkdir{test1}
+>    82  mkdir {test1}
+>    83  mkdir {test2}
+>    84  cd /test1/
+>    85  cd ~/test1/
+>    86  cd ~test1/
+>    87  mkdir test2
+>    88  mkdir test1
+>    89  cd ~/test1/
+>    90  echo testing123 > testfile.txt
+>    91  cat testfile.txt
+>    92  mv ~/test1 ~/test2
+>    93  cd ~
+>    94  mkdir test1
+>    95  cd ~/test1/
+>    96  echo testing123 > testfile.txt
+>    97  mkdir test1
+>    98  cat testfile.txt
+>    99  mv ~/test1 ~/test2
+>   100  mv ~/test1/testfile.txt ~/test2
+>   101  rm ~/test2/testfile.txt
+>   102  rmdir
+>   103  rmdir /test1
+>   104  rmdir ~/test2/test1
+>   105  cd ~
+>   106  rm ~/test2/test1/testfile.txt
+>   107  rmdir ~/test2/test1/
+>   108  mvdir ~/test2/ ~/test1/
+>   109  mv ~/test2/ ~/test1/
+>   110* rm -V !("h
+>   111* 
+>   112  echo test > test.txt
+>   113  mv test.txt a.txt
+>   114  ls -lt -d -- *[!0-9].txt
+>   115  ls
+>   116  cp history20230913_Class_02.txt hihi.txt
+>   117  ls
+>   118  mkdir DEF
+>   119  ls
+>   120  mv hihi.txt ~/DEF/
+>   121  ls ~/def/
+>   122  ls ~/DEF/
+>   123  ls -lt ~/DEF/
+>   124  mv DEF/hihi.txt DEF/hihihi.exe
+>   125  ls -lt ~/DEF/
+>   126  rm -f DEF/
+>   127  rm -r DEF/
+>   128  ls
+>   129  whereis ls
+>   130  echo $path
+>   131  echo $PATH
+>   132  whereis ls
+>   133  ls-lt /bin/ls /usr/share/man/man1/ls.1.gz
+>   134  ls-lt /bin/ls
+>   135  ls -lt /bin/ls
+>   136  cat /bin/ls
+>   137  nano cmd1.sh
+>   138  cat cmd1
+>   139  cat cmd1.sh
+>   140  ls -lt /bin/ls
+>   141  nano
+>   142  ls -lt  cmd1.sh 
+>   143  chmod 754 cmd1.sh 
+>   144  ls -lt  cmd1.sh 
+>   145  ls -lt 
+>   146  pwd
+>   147  echo $PATH
+>   148  PATH=$PATH:~
+>   149  cmd1.sh 
+>   150  mkdir TEST
+>   151  cp cmd1.sh TEST/
+>   152  ls TEST/
+>   153  PATH=$PATH:~/TEST
+>   154  ls TEST/
+>   155  nano TEST/cmd1.sh 
+>   156  whereis cmd1.sh
+>   157  cmd1.sh 
+>   158  ls -lt
+>   159  history [77]> history20230913_Class_03.txt
+>   160  history [77] > history20230913_Class_03.txt
+>   161  man history
+>   162  history > history20230913_Class_03.txt
+>   163  cat history20230913_Class_03.txt
+>   164  diff history20230913_Class_02.txt history20230913_Class_03.txt
+>   165  diff history20230913_Class_02.txt history20230913_Class_03.txt > history20230913_Class_03.txt
+>   166  cat history20230913_Class_03.txt
+>   167  history > history20230913_Class_03.txt
+>   168  diff history20230913_Class_02.txt history20230913_Class_03.txt
+>   169  diff history20230913_Class_02.txt history20230913_Class_03.txt > history20230913_Class_03.txt
+>   170  history > history20230913_Class_03.txt
+>   171  diff history20230913_Class_03.txt history20230913_Class_02.txt
+>   172  diff history20230913_Class_03.txt history20230913_Class_02.txt > history20230913_Class_03.txt
+>   173  history > history20230913_Class_03.txt
+>   174  diff history20230913_Class_03.txt history20230913_Class_02.txt
+>   175  diff history20230913_Class_03.txt history20230913_Class_02.txt > history20230913_Class_03.txt
+>   176  history > history20230913_Class_03.txt
+>   177  diff history20230913_Class_02.txt history20230913_Class_03.txt
+>   178  diff history20230913_Class_02.txt history20230913_Class_03.txt > history20230913_Class_03.txt
+>   179  history > history20230913_Class_03.txt

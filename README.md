@@ -34,7 +34,7 @@ block
 block
 block
 ```
-##otrā nodarbība
+## otrā nodarbība
 
 ~ - /home/user/
 

@@ -1,0 +1,29 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git --version
+    4  git clone 
+    5  pwd
+    6  ls
+    7  git clone https://github.com/KeveKeve4/RTR105
+    8  ls -lt
+    9  ls -lt RTR105
+   10  git clone https://github.com/KeveKeve4/RTR105 RTR105_V01
+   11  ls -lt
+   12  rm -r RTR105_V01
+   13  rm -rf RTR105_V01
+   14  ls -lt
+   15  cd RTR105
+   16  ls -lt
+   17  ls -lta
+   18  cd .git
+   19  ls -lta
+   20  cat config
+   21  cat index
+   22  cd ..
+   23  ls -lta
+   24  nano git-upload
+   25  ls -lt
+   26  chmod 754 git-upload
+   27  ls -lt
+   28  ./git-upload 
+   29  history > history20230920_Class_04

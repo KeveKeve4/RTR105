@@ -71,3 +71,9 @@ history > a.txt - ieraksta history text failā
 whereis - atrod lokāciju
 
 chmod - maina atļaujas failam (754 inr priekš .sh)
+
+nano -atver text editor
+
+## Trešā nodarbība
+
+git clone https://github.com/KeveKeve4/RTR105 - nokopē failus no savas repozitorijas

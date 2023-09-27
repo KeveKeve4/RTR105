@@ -1,0 +1,88 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/KeveKeve4/RTR105
+ls -lt
+cd ./RTR105
+mkdir class_05
+cd class_05
+pwd
+ls -lt
+nano first_c
+nano first.c 
+ls -lt
+cat first.c 
+gcc --version
+gcc first.c 
+echo -?
+ls -lt
+cat a.out
+history
+./a.out
+echo $?
+nano first.c 
+gcc first.c -o first.out
+ls -lt
+./first.out 
+echo $?
+nano first.c 
+gcc first.c 
+a.out first.out
+diff a.out first.out
+rm *.out
+ls -lt
+nano first.c 
+cat first.c 
+cp first.c second.c
+ls -lt
+nano second.c 
+gcc second.c 
+nano second.c 
+gcc second.c 
+nano second.c 
+gcc second.c 
+./a.out 
+nano second.c 
+./a.out 
+gcc second.c 
+./a.out 
+gcc -E second.c 
+gcc -E second.c > second.i
+ls -lt
+cat second.i
+ls -lt
+gcc second.c -o second_from_c.out
+gcc second.i -o second_from_i.out
+diff second_from_c second_from_i
+diff second_from_c.out second_from_i.out 
+gcc -S second.c > second.s
+ls -lt
+cat second.s
+gcc second.s -o second_from_s.out
+diff second_from_c.out second_from_s.out 
+ls -lt
+gcc -c second.c > second.o
+cat second.o
+gcc second.o -o second_from_o.out
+diff second_from_c.out second_from_o.out 
+ls -lt
+gcc second.o -Wall -save-temp second.out
+gcc second.o -Wall -save-temps second.out
+gcc -Wall -save-temps second.c
+ls -lt
+gcc second.c > second.out
+ls -lt
+cd ~
+cd RTR105
+nano .gitignore
+ls -lt
+nano git-upload 
+nano history
+nano git-upload 
+./git-upload  05 a
+ls -lt
+cat history_20230920_Class_05.txt 
+ls -lt
+nano git-upload 
+nano history
+nano git-upload 
+history -a

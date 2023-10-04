@@ -1,0 +1,65 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/KeveKeve4/RTR105
+mkdir class-07
+cd class-07
+nano studio.h
+ls -lt
+nano printf_test.h 
+ls -lt
+gcc printf_test.c
+nano printf_test.c
+gcc printf_test.c
+nano printf_test.c
+gcc printf_test.c
+nano printf_test.c
+ls -lt
+gcc printf_test.c printf_test.out
+gcc printf_test. printf_test.c
+gcc printf_test.c > printf_test.out
+ls -lt
+printf_test.out
+nano ezis.c
+gcc ezis.c > ezis.out
+nano ezis.c
+gcc ezis.c > ezis.out
+nano ezis.c
+gcc ezis.c > ezis.out
+nano scanf_test.c
+gcc scanf_test.c > scanf_test.out
+ls -la
+chmod 754 ezis.out
+ls -la
+gcc scanf_test.c -o scanf_test.out
+gcc ezis.c -o ezis.ou
+gcc printf_test.c -o printf_test.out
+ls -la
+nano fflush_test.c
+gcc fflush_test.c -o fflush_test.out
+ls -la
+printf_test.out
+./printf_test.out
+./scanf_test.out
+./fflush_test.out
+./ezis.out
+ls -la
+cp ezis.ou > ezis.out
+
+
+gcc ezis.c -o ezis.out
+./ezis.out
+nano printf_test.
+nano printf_test.c
+nano scanf_test.c
+gcc age.c -o age.out
+./age.out 
+nano age.c
+gcc age.c -o age.out
+./age.out 
+nano age.c
+gcc age.c -o age.out
+./age.out 
+nano age.c
+gcc age.c -o age.out
+./age.out 
+history -a

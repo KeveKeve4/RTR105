@@ -1,0 +1,127 @@
+VirtualBox --startvm XP
+quartus
+github get kevekeve4/RTR105
+git clone https://github.com/KeveKeve4/RTR105
+cd RTR105/
+ls -lt
+git clone https://github.com/KeveKeve4/RTR105
+ls -lt
+cd ~
+git clone https://github.com/KeveKeve4/RTR105
+ls -lt
+cd RTR105/
+ls -lt
+nano
+nano var.c
+gcc var.c  -o var.out
+./var.out 
+nano var.c
+./var.out 
+nano var.c
+gcc var.c  -o var.out
+./var.out 
+nano var.c
+gcc var.c  -o var.out
+./var.out 
+nano var.c
+gcc var.c  -o var.out
+./var.out 
+./class-08
+cd ./class-08
+nano var.c
+gcc var.c  -o var.out
+./var.out 
+nano var.c
+fg
+gcc var.c  -o var.out
+./var.out 
+cp var.c op.c
+nano op.c
+gcc op.c  -o op.out
+./op.out 
+nano op.c
+gcc op.c  -o op.out
+./op.out 
+nano op.c
+gcc op.c  -o op.out
+./op.out 
+gcc op.c  -o op.out
+nano op.c
+gcc op.c  -o op.out
+./op.out 
+gcc op.c  -o op.out
+./op.out 
+nano op.c
+gcc op.c -o op.out
+nano op.c
+gcc op.c -o op.out
+nano op.c
+gcc op.c -o op.out
+nano op.c
+gcc op.c -o op.out
+nano op.c
+gcc op.c -o op.out
+nano op.c
+gcc op.c -o op.out
+nano op.c
+gcc op.c -o op.out
+./op.out 
+nano op.c
+cp op.c if.c
+nano if.c
+gcc if.c -o if.out
+./if.out 
+nano if.c
+./if.out 
+gcc if.c -o if.out
+nano if.c
+gcc if.c -o if.out
+./if.out 
+nano if.c
+gcc if.c -o if.out
+./if.out 
+nano if.c
+gcc if.c -o if.out
+./if.out 
+nano if.c
+gcc if.c -o if.out
+./if.out 
+nano if.c
+cp if.c while.c
+nano while.c
+fg
+gcc while.c -o while.out
+./while.out 
+gcc while.c -o while.out
+nano while.c
+gcc while.c -o while.out
+./while.out 
+nano while.c
+gcc while.c -o while.out
+./while.out 
+nano while.c
+gcc while.c -o while.out
+./while.out 
+nano while.c
+gcc while.c -o while.out
+./while.out 
+nano while.c
+gcc while.c -o while.out
+./while.out 
+nano while.c
+gcc while.c -o while.out
+nano while.c
+gcc while.c -o while.out
+./while.out 
+nano while.c
+gcc while.c -o while.out
+./while.out 
+nano while.c
+gcc while.c -o while.out
+./while.out 
+cp while.c for.c
+cp while.c heh.c
+nano heh.c
+gcc heh.c -o heh.out
+nano heh.c
+history -a

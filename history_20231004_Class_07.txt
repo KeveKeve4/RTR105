@@ -48,7 +48,7 @@ cp ezis.ou > ezis.out
 
 gcc ezis.c -o ezis.out
 ./ezis.out
-nano printf_test.
+nano printf_test.c
 nano printf_test.c
 nano scanf_test.c
 gcc age.c -o age.out

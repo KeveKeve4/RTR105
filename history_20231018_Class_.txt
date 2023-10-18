@@ -1,0 +1,72 @@
+VirtualBox --startvm XP
+quartus
+git clone kevekeve4/RTR105
+git clone github.com/kevekeve4/RTR105
+mkdir RTR105
+cd RTR105
+git clone https://github.com/kevekeve4/RTR105
+mkdir Class_9
+cd Class_9/
+ls -lt
+nano while_char.c
+gcc while_char.c -o while_char.out
+./while_char.out 
+nano while_char.c
+gcc while_char.c -o while_char.out
+./while_char.out 
+nano while_char.c
+gcc while_char.c -o while_char.out
+nano while_char.c
+gcc while_char.c -o while_char.out
+nano while_char.c
+gcc while_char.c -o while_char.out
+./while_char.out 
+nano while_char.c
+cp while_char.c while_rand.c
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+./while_rand.out 
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+nano while_rand.c 
+./while_rand.out 
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+./while_rand.out 
+gcc while_rand.c -o while_rand.out
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+./while_rand.out 
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+./while_rand.out 
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+./while_rand.out 
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+./while_rand.out 
+nano while_rand.c 
+gcc while_rand.c -o while_rand.out
+./while_rand.out 
+cp while_rand.c func_V1.c
+nano func_V1.c 
+gcc func_V1.c -o func_V1.out
+nano func_V1.c 
+gcc func_V1.c -o func_V1.out
+nano func_V1.c 
+gcc func_V1.c -o func_V1.out
+nano func_V1.c 
+fg
+gcc func_V1.c -o func_V1.out
+nano func_V1.c 
+gcc func_V1.c -o func_V1.out
+./func_V1.out 
+nano func_V1.c 
+gcc func_V1.c -o func_V1.out
+./func_V1.out 
+history -a

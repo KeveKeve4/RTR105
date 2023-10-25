@@ -1,0 +1,71 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/KeveKeve4/RTR105
+/RTR105
+ls -lt
+cd RTR105
+mkdir Class_11
+cd class_11
+cd Class_11
+nano sub.c
+nano foo.h
+main.c
+nano main.c
+gcc -Wall -c foo.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+ls -lt
+./testprogram 
+nano foo.c
+nano foo.h
+nano main.c
+nano foo.c
+nano main.c
+nano foo.c
+nano main.c
+gcc -Wall -c foo.c
+gcc -Wall -c main.c
+nano main.c
+gcc -Wall -c main.c
+nano foo.c
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano main.c
+gcc -Wall -c main.c
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano foo.c
+gcc -Wall -c foo.c
+nano foo.c
+gcc -Wall -c foo.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano main.c
+nano mass.c
+fg
+gcc -o mass.out mass.o
+gcc -o mass.out mass.c
+nano mass.c
+gcc -o mass.out mass.c
+./mass.out
+nano mass.c
+gcc -o mass.out mass.c
+./mass.out
+history -a

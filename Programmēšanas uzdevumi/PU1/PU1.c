@@ -4,9 +4,9 @@ int main()
 {
 	int long long num1, num2, sum;
 
-    printf("Ierakstiet 400 000: ");
+    printf("Ierakstiet 400000: ");
     scanf("%lld", &num1);
-    printf("Ieraksiet 100 000: ");
+    printf("Ieraksiet 100000: ");
     scanf("%lld", &num2);
 
     sum = num1 * num2;

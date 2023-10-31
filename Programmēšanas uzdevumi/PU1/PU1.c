@@ -19,5 +19,5 @@ int main()
 	{ 
     printf("Ievadītas citas vērtības: %lld\n", sum);
 	}
-    return 0;
+return 0;
 }

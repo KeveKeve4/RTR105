@@ -22,5 +22,5 @@ for (int i = 7; i >= 0; i--)
 	}
 
 printf("\n");
-return 0;
+return 0;
 }

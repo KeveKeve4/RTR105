@@ -1,0 +1,66 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/KeveKeve4/RTR105
+/cd RTR105
+ls -lt
+cd RTR105
+ls -lt
+mkdir Class_13
+cd Class-13
+cd Class_13
+../
+mkdir Class_14
+cd Class_14
+../
+cd ../
+cd`
+cd~
+cd ~
+RTR105
+cd RTR105
+mkdir Class_14
+cd Class_14
+nano open.c
+gcc -o open.c open.out
+gcc -o open.out open.c
+./open.out 
+ls-lt
+ls -lt
+nano close.c
+gcc -o close.out close.c
+./close.out 
+nano close.c
+gcc -o close.out close.c
+./close.out 
+nano print.c
+gcc -o print.out print.c
+./print.out 
+nano scan.c
+gcc -o scan.out scan.c
+./scan.out 
+nano wright.c
+gcc -o write.out write.c
+./write.out 
+nano read.c
+gcc -o write.out write.c
+gcc -o read.out read.c
+./read.out 
+ls -lt
+nano open.c
+gcc -o open.out open.c
+./open.out 
+nano open.c
+gcc -o open.out open.c
+./open.out 
+nano open.c
+gcc -o open.out open.c
+./open.out 
+nano open.c
+gcc -o open.out open.c
+./open.out 
+nano open.c
+gcc -o open.out open.c
+./open.out 
+nano close.c
+nano print.c
+history -a

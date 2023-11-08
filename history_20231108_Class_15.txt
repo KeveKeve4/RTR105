@@ -1,0 +1,71 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/KeveKeve4/RTR105
+cd RTR105
+mkdir Class_14
+mkdir Class_15
+cd Class_15
+gnuplot --vesion
+nano gnu.gp
+gnu,gp
+gnu.gp
+chmod 744 gnu.gp
+gnu.gp
+nano gnu.gp 
+chmod 744 gnu.gp
+gnu.gp
+ls -lt
+gnu.gp
+nano gnu.gp 
+gnu.gp
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+./gnu.gp 
+nano gnu.gp 
+history -a
+cd RTR105
+cd Class_15
+nano cosX*X
+chmod 744 cosX\*X.gp 
+nano cosX*X
+nano cosX*X.gp
+nano gnu.gp
+fp
+fg
+./cosX\*X.gp 
+nano cosX*X.gp
+nano cosX*X.c
+gcc cosX*X.c -lm
+nano cosX*X.c
+fg
+gcc cosX*X.c -lm
+./cosX\*X.gp 
+./cosX\*X.c
+./out.c
+./ a.out
+./a.out
+history -a

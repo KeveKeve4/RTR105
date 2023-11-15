@@ -1,0 +1,68 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/KeveKeve4/RTR105
+cd RTR105
+cd Class_17
+cd Class_
+cd Class_6
+cd Class_16
+cd Class_15
+ls -lt
+cd ../
+cd Class_16
+gcc cosX2.c -o
+gcc -o cosX2.c
+gcc cosX2.c
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+gcc cosX2dum.c -O
+./a.out 
+gcc cosX2dum.c -O
+./a.out 
+gcc cosX2dum.c -O
+./a.out 
+gcc cosX2dum.c -O
+./a.out 
+gcc cosX2dum.c -O
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2dum.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+gcc cosX2.c -O
+./a.out 
+history -a

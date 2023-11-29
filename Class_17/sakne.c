@@ -1,3 +1,5 @@
+#undef __STRICT_ANSI__
+
 #include<stdio.h>
 #include<math.h>
 

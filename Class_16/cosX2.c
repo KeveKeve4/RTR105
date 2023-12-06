@@ -25,7 +25,7 @@ double mycos (double x)
         }
         if(k=500)
         {
-            printf("a500 = %8.2f S500 = %8.2f\n",a,S)
+            printf("a500 = %8.2f S500 = %8.2f\n",a,S);
         }
     }
     return S;

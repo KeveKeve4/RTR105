@@ -26,7 +26,7 @@ void main()
 {
     double x,y,yy;
     printf("cos2 aprekinasana:\n");
-    printf("Ievadi argumentu x:");
+    printf("Ievadi argumentu x: ");
     scanf("%lf",&x);
     y = cos(x*x);
     
@@ -34,15 +34,15 @@ void main()
 
     yy = mycos(x);
 
-    printf("Cos2(%.2f) caur summu:%.2f\n\n",x,yy);
-    printf("             500                           \n");
-    printf("            _____                          \n");
-    printf("            \\            k   4k           \n");
-    printf("             \\       (-1) * x             \n");
-    printf("cos2(%5.2f) = > _________________          \n",x);
-    printf("             /                             \n");
-    printf("            /____      (2 * k)!            \n");
-    printf("             k=0                           \n\n");
+    printf("Cos2(%.2f) caur summu: %.2f\n\n",x,yy);
+    printf("            500                           \n");
+    printf("           _____                          \n");
+    printf("           \\            k   4k           \n");
+    printf("            \\       (-1) * x             \n");
+    printf("cos2(%4.2f) = > _________________          \n",x);
+    printf("            /                             \n");
+    printf("           /____      (2 * k)!            \n");
+    printf("            k=0                           \n\n");
     printf("                                           4            \n");
     printf("                                   (-1) * x             \n");
     printf("rekurences reizinātājs:  ____________________________   \n\n");

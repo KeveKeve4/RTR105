@@ -23,7 +23,7 @@ long long faktorial(int num, int mode)
             return -1;
         }
 
-        fak *= i;
+        fak = fak * i;
         i++;
     }
     return fak;

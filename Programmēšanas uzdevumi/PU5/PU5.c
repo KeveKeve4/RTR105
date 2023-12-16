@@ -41,7 +41,7 @@ int main() {
 
     if (fak != -1) {printf("%d faktorialais ir: %lld\n", num, fak);} 
 
-    else {printf("kluda aprekinot faktorialu\n");}
+    else {printf("kluda aprekinot faktorialu.\n");}
 
     return 0;
 }

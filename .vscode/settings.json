@@ -2,6 +2,7 @@
     "files.associations": {
         "cmath": "c",
         "complex": "c",
-        "random": "c"
+        "random": "c",
+        "pu5": "c"
     }
 }

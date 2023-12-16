@@ -61,6 +61,6 @@ int main()
             else {printf("%c%c\n", b2, b1);}
         }
     } 
-    else {printf("Nepareizi ievadits, ludzu ievadiet 'A' vai 'D'.\n");}
+    else {printf("Nepareizi ievadits, ludzu ievadiet 'A' vai 'D'\n");}
     return 0;
 }

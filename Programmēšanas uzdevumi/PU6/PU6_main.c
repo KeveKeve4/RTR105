@@ -7,7 +7,7 @@
 int main() 
 {
     mod1();
-
+    
     int i = 2;
     mod2(i);
 

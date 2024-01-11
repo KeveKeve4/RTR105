@@ -1,6 +1,6 @@
 # 1. Laboratorijas Darbs - Teilora rinda
 
-funkcija cos^2(x)
+funkcija: cos^2(x)
 
 Izmantojot rekurences reizinātāju ir iespējams noteikt savas funkcijas n-tā locekļa vērtību un ipeirkšējo locekļu summu
 

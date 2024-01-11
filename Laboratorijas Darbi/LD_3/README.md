@@ -9,7 +9,9 @@ Atvasinājumu ir iespējams noteikt 2 veidos:
  2. izmantojot skaitlisko diferncēšanas veidu
 
 atvasinājuma [grafiks](https://github.com/KeveKeve4/RTR105/blob/main/Laboratorijas%20Darbi/LD_3/cos2_atvas.png)
+
 gnuplot [kods](https://github.com/KeveKeve4/RTR105/blob/main/Laboratorijas%20Darbi/LD_3/cos2_deriv_gnuplot.gp)
+
 programa izvada datu [failu](https://github.com/KeveKeve4/RTR105/blob/main/Laboratorijas%20Darbi/LD_3/atvas.dat) no kura tiek zīmēts grafiks
 
 Programmas kods:

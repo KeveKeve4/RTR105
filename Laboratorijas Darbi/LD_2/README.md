@@ -4,7 +4,7 @@ funkcija: cos^2(x)
 
 Pēc lietotāja ievadītajiem mainīgajiem ir iespējams veikt funkcijas mainīgā aprēķinu lai parādītu lietotājam kurās x vērtībās viņa izvēlētā funcijas vērtība būs 0.
 
-Links uz funkcijas cos^2(x) saknēm pie vārtībām [(0;3) y=0,2](Laboratorijas Darbi/LD_2/cos2(x) sakne.png)
+Links uz funkcijas cos^2(x) saknēm pie vārtībām [(0;3) y=0,2](https://github.com/KeveKeve4/RTR105/blob/main/Laboratorijas%20Darbi/LD_2/cos2(x)%20sakne.png)
 
 ```
 #include <stdio.h>

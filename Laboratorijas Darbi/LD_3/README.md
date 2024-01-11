@@ -1,4 +1,4 @@
-# 2. Laboratorijas Darbs - Atvasināšana
+# 3. Laboratorijas Darbs - Atvasināšana
 
 funkcija: cos^2(x)
 

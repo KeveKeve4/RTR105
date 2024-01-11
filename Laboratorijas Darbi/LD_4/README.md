@@ -7,7 +7,7 @@ funkcijas laukumu var notiekt lietojot integrāli, to ir iespējams darīt ar š
 - trapeces laukumu;
 - Simpsona metodi (manā kodā nestrādā);
 
-cos^2(x) integrāļa [grafiks]()
+cos^2(x) integrāļa [grafiks](https://github.com/KeveKeve4/RTR105/blob/main/Laboratorijas%20Darbi/LD_4/cos2%20laukums.png)
 
 formulas uz kā integrāļa aprēķins balstās
 

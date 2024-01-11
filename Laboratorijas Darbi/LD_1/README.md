@@ -1,4 +1,4 @@
-# Laboratorijas Darbs 1 - Teilora rinda
+# 1. Laboratorijas Darbs - Teilora rinda
 
 funkcija cos^2(x)
 

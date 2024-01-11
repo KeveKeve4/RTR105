@@ -12,8 +12,10 @@ deriv = fopen("derivative.dat", "w");
 	
 printf("lūdzu izvēlieties funkcijas sākuma robežas vērtību a:\n");
 scanf("%f", &a);
+	
 printf("lūdzu izvēlieties funkcijas beigu robežas vērtību b:\n");
 scanf("%f", &b);
+	
 printf("lūdzu izvēlieties funkcijas precizitātes vērtību dx:\n");
 scanf("%f", &delta_x);
 

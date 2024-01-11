@@ -6,6 +6,7 @@ Pēc lietotāja ievadītajiem mainīgajiem ir iespējams veikt funkcijas mainīg
 
 Links uz funkcijas cos^2(x) saknēm pie vārtībām [(0;3) y=0,2](https://github.com/KeveKeve4/RTR105/blob/main/Laboratorijas%20Darbi/LD_2/cos2(x)%20sakne.png)
 
+Programmas kods:
 ```
 #include <stdio.h>
 #include <math.h>

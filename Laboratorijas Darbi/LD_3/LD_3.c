@@ -8,7 +8,7 @@ double y,y1,y2,y2_1,y3,y3_1;
 
 FILE*deriv;
 
-deriv = fopen("derivative.dat", "w");
+deriv = fopen("atvas.dat", "w");
 	
 printf("lūdzu izvēlieties funkcijas sākuma robežas vērtību a:\n");
 scanf("%f", &a);

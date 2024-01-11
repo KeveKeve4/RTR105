@@ -1,5 +1,7 @@
 # 2. Laboratorijas Darbs - Atvasināšana
 
+funkcija: cos^2(x)
+
 Funkcijas atvasinājumi:
 1. kārtas ((cos(x))^2)'= -2cos(x)sin(x)
 2. kārtas ((cos(x))^2) ''= 2(sin(x))^2-2(cos(x))^2

@@ -1,4 +1,4 @@
-# 1. Laboratorijas Darbs - bubble sort
+# 5. Laboratorijas Darbs - bubble sort
 
 Sajā darbā ir nepieciešams sakārtot burtus pēc ASCCI tabulas
 kā arī jānosaka burtu rindas:

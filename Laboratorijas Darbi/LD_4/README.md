@@ -5,19 +5,9 @@ funkcija: cos^2(x)
 funkcijas laukumu var notiekt lietojot integrāli, to ir iespējams darīt ar šīm 3 metodēm
 - tainstūra laukumu;
 - trapeces laukumu;
-- Simpsona metodi (manā kodā nestrādā);
+- Simpsona metodi;
 
 cos^2(x) integrāļa [grafiks](https://github.com/KeveKeve4/RTR105/blob/main/Laboratorijas%20Darbi/LD_4/cos2%20laukums.png)
-
-formulas uz kā integrāļa aprēķins balstās
-
-S(tains) = a * b 
-integralis = (b-a) * f((a+b)/2)
-
-S(trap) = ((a+b)/2) * h 
-integralis = (b-a) * ((f(a)+f(b))/2)
-
-Simspona formula integraalim = ((b-a)/6) * (f(a)+4f((a+b)/2)+f(b))
 
 Programmas kods:
 ```

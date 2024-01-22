@@ -43,7 +43,7 @@ double taisnsturis(double a, double b, int n)
 	{
         double x = a + i * h;
         summa += cos2(x);
-    }
+   	}
 
     return h * summa;
 }

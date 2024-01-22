@@ -39,7 +39,8 @@ double taisnsturis(double a, double b, int n)
     double h = (b - a) / n;
     double summa = 0.0;
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+	{
         double x = a + i * h;
         summa += cos2(x);
     }
@@ -52,7 +53,8 @@ double trapec(double a, double b, int n)
     double h = (b - a) / n;
     double summa = 0.5 * (cos2(a) + cos2(b));
 
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i < n; i++) 
+	{
         double x = a + i * h;
         summa += cos2(x);
     }
@@ -62,14 +64,16 @@ double trapec(double a, double b, int n)
 
 double simpsons(double a, double b, int n) 
 {
-    if (n % 2 != 0) {
+    if (n % 2 != 0) 
+	{
         n++;
     }
 
     double h = (b - a) / n;
     double summa = cos2(a) + cos2(b);
 
-    for (int i = 1; i < n; i++) {
+    for (int i = 1; i < n; i++) 
+	{
         double x = a + i * h;
         summa += (i % 2 == 0) ? 2 * cos2(x) : 4 * cos2(x);
     }

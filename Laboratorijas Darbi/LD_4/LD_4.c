@@ -1,85 +1,78 @@
 #include<stdio.h>
 #include<math.h>
 
-float taisn(float);
-float trapece(float);
-//float simpsons(float);
+double taisnsturis(double,double,int);
+double trapec(double,double,int);
+double simpsons(double,double,int);
 
-float a,b,preciz,h,s,s1,s2, integr1=0, integr2;
-int k, n=2;
-
-int main()
+int main() 
 {
+    double a,b;
+    int n;
+
 	printf("lūdzu ievadiet sākuma robežu a:\n");
-	scanf("%f",&a);
+	scanf("%lf",&a);
   
 	printf("lūdzu ievadiet beigu robežu b:\n");
-	scanf("%f",&b);
+	scanf("%lf",&b);
   
 	printf("lūdzu izvēlieties aprēķinu precizitāti:\n");
-	scanf("%f",&preciz);
+	scanf("%d",&n);
 
-	printf("Rezultāts izmantojot taisnstūra metodi: %f\n", taisn(integr1));
-	printf("Rezultāts izmantojot trapeces metodi: %f\n", trapece(integr1));
-	//printf("Rezultāts izmantojot Simpsona metodi: %f\n", simpsons(integr1));
-	}
+    double taisn_summa = taisnsturis(a, b, n);
+    printf("Rezultāts izmantojot taisnstūra metodi: %f\n", taisn_summa);
+    double trapec_summa = trapec(a, b, n);
+    printf("Rezultāts izmantojot trapeces metodi: %f\n", trapec_summa);
+    double simpson_summa = simpsons(a, b, n);
+    printf("Rezultāts izmantojot Simpsona metodi: %f\n", simpson_summa);
 
-	float taisn(float integr1)
-	{
-  		integr2=(b-a)*pow(cos((a+b)/n),2);
-  		while(fabs(integr2-integr1)>preciz)
-  		{
-    			n*=2;
-    			h=(b-a)/n;
-    			integr1=integr2;
-    			integr2=0;
-    			for(k=0;k<n;k++)
-    			{
-      			integr2+=h*pow(cos(a+(k+0.5)*h),2);
-    			}
-  		}
-	return integr1;
+    return 0;
 }
 
-float trapece(float integr1)
+double cos2(double x) 
 {
-  	integr2=((b-a)/n)*(pow(cos(a),2)*pow(cos(b),2))/n;
-  	while(fabs(integr2-integr1)>preciz)
-  	{
-    		n*=2;
-    		h=(b-a)/n;
-    		integr1=integr2;
-    		integr2=0;
-    		for(k=0;k<n;k++)
-    		{
-      		integr2+=h*pow(cos(a+(k+0.5)*h),2);
-    		}
-  	}
-	return integr1;
+    return pow(cos(x), 2);
 }
 
-/*
-float simpsons(float integr1)
+double taisnsturis(double a, double b, int n) 
 {
-  	h=(b-a)/n;
-  	integr1=(h/3)*(pow(cos(a),2)-4*(pow(cos((a+b)/2),2)+pow(cos(b),2)));
-  	while(fabs(integr2-integr1)>preciz)
-  	{
-    		integr1=integr2;
-    		integr2=0;
-    		for(k=1;k<n;k++)
-    		{	
-      			if(k%2==0)
-      			{
-				integr2+=2*pow(cos(a+k*h),2);
-      			}
-      			else
-      			{
-      				integr2+=4*pow(cos(a+k*h),2);
-      			}
-    		}
-  		integr1=(h/6)*((pow(cos(a),2)+pow(cos(b),2)+integr2));
-  	}
-	return integr1;
+    double h = (b - a) / n;
+    double summa = 0.0;
+
+    for (int i = 0; i < n; i++) {
+        double x = a + i * h;
+        summa += cos2(x);
+    }
+
+    return h * summa;
 }
-*/
+
+double trapec(double a, double b, int n) 
+{
+    double h = (b - a) / n;
+    double summa = 0.5 * (cos2(a) + cos2(b));
+
+    for (int i = 1; i < n; i++) {
+        double x = a + i * h;
+        summa += cos2(x);
+    }
+
+    return h * summa;
+}
+
+double simpsons(double a, double b, int n) 
+{
+    if (n % 2 != 0) {
+        n++;
+    }
+
+    double h = (b - a) / n;
+    double summa = cos2(a) + cos2(b);
+
+    for (int i = 1; i < n; i++) {
+        double x = a + i * h;
+        summa += (i % 2 == 0) ? 2 * cos2(x) : 4 * cos2(x);
+    }
+
+    return h / 3 * summa;
+}
